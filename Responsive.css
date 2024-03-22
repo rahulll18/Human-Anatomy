@@ -1,0 +1,213 @@
+/* ipad pro */
+@media screen and (min-width: 1024px) and (max-width: 1086px) {
+    .navbar {
+        width: 1024px;
+    }
+
+    model-viewer {
+        width: 500px;
+        height: 550px;
+    }
+
+    .body-section {
+        height: 1366px;
+        width: 1024px;
+    }
+
+    .left-content {
+        margin-left: 60px;
+    }
+
+    .left-content h1 {
+        font-size: 70px;
+    }
+
+    .left-content p {
+        font-size: 22px;
+    }
+
+    .left-content button {
+        padding: 15px 20px;
+        margin-top: 20px;
+    }
+}
+
+/* ipad mini */
+@media screen and (min-width: 768px) and (max-width: 850px) {
+    .navbar {
+        width: 768px;
+    }
+
+    model-viewer {
+        width: 380px;
+        height: 550px;
+    }
+
+    .body-section {
+        height: 1060px;
+    }
+
+    .left-content {
+        margin-left: 60px;
+    }
+
+    .left-content h1 {
+        font-size: 70px;
+    }
+
+    .left-content p {
+        font-size: 22px;
+    }
+
+    .left-content button {
+        padding: 15px 20px;
+        margin-top: 20px;
+    }
+}
+
+/* ipad air  820 px*/
+@media screen and (min-width: 820px) and (max-width: 900px) {
+    .navbar {
+        width: 820px;
+    }
+
+    .body-section {
+        height: 1180px;
+        width: 820px;
+    }
+
+    model-viewer {
+        width: 350px;
+        height: 550px;
+    }
+
+    .left-content {
+        margin-left: 60px;
+    }
+
+    .left-content h1 {
+        font-size: 70px;
+    }
+
+    .left-content p {
+        font-size: 22px;
+    }
+
+    .left-content button {
+        padding: 15px 20px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 912px) and (max-width: 1000px) {
+    .navbar {
+        width: 912px;
+    }
+
+    model-viewer {
+        width: 400px;
+        height: 550px;
+    }
+
+    .body-section {
+        height: 1368px;
+        width: 912px;
+    }
+
+    .left-content {
+        margin-left: 60px;
+    }
+
+    .left-content h1 {
+        font-size: 70px;
+    }
+
+    .left-content p {
+        font-size: 22px;
+    }
+
+    .left-content button {
+        padding: 15px 20px;
+        margin-top: 20px;
+    }
+
+}
+@media screen and  (max-width: 500px) {
+    /* .navbar {
+        width: 500px;
+    }
+
+    model-viewer {
+        width: 215px;
+        height: 300px;
+    }
+
+    .body-section {
+        height: 822px;
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .righ-container{
+        height: 380px;
+    }
+    .body-section div {
+        height: 400px;
+    }
+    .left-content h1 {
+        font-size: 20px;
+    }
+
+    .left-content p {
+        font-size: 15px;
+    }
+
+    .left-content button {
+        padding: 10 15px;
+        margin-top: 20px;
+    } */
+
+    .body-section {
+        height: 822px;
+        width: 430px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    .left-content h1 {
+        font-size: 20px;
+    }
+    
+    .left-content p {
+        font-size: 12px;
+    }
+    
+    .left-content button {
+        padding: 5px 5px;
+        margin-top: 10px;
+    }
+    .left-container{
+        height: 200px;
+    }
+    .left-content {
+        height: 200px;
+    }
+   .right-container{
+        height: 350px;
+    }
+    .right-content{
+        width: 215px;
+        height: 350px;
+    }
+    model-viewer {
+        width: 215px;
+        height: 300px;
+    }
+   .model-hand{
+        width: 215px;
+        height: 290px;
+   }
+
+}

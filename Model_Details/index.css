@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+model-viewer {
+    width: 1000px;
+    height: 700px;
+}
+
+
+.model-detail {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.right-detail img {
+    width: 200px;
+    height: 200px;
+}
